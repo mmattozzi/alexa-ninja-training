@@ -1,0 +1,6 @@
+Converting Audio Files to an Alexa-Friendly Format
+You may need to use converter software to convert your MP3 files to the required codec version (MPEG version 2) and bit rate (48 kbps). One option for this is a command-line tool, FFmpeg. The following command converts the provided <input-file> to an MP3 file that works with the audio tag.
+
+ffmpeg -i <input-file> -ac 2 -codec:a libmp3lame -b:a 48k -ar 16000 <output-file.mp3>
+
+See: https://developer.amazon.com/docs/custom-skills/speech-synthesis-markup-language-ssml-reference.html#h3_converting_mp3

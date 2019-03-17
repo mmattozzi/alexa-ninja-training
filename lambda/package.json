@@ -1,0 +1,21 @@
+{
+  "name": "skill-nodejs-buttons-ninja-training",
+  "version": "1.0.0",
+  "description": "Home Ninja trainer based on Echo Buttons sample skill.",
+  "main": "index.js",
+  "dependencies": {
+    "ask-sdk-core": "^2.0.3",
+    "ask-sdk-model": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "echo buttons"
+  ],
+  "author": "mike.mattozzi@gmail.com",
+  "license": "Amazon-1.0"
+}
